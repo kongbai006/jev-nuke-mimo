@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "llmEnabled": {
+      "type": "boolean",
+      "title": "启用AI回复",
+      "description": "关闭后只本地秒判",
+      "default": true
+    }
+  }
+}
